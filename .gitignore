@@ -4,9 +4,3 @@
 
 *.wasm
 grammars/
-
-#
-# Rust
-#
-
-/target
