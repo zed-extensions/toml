@@ -1,6 +1,11 @@
 name = "TOML"
 grammar = "toml"
-path_suffixes = ["Cargo.lock", "toml", "Pipfile", "uv.lock"]
+path_suffixes = [
+    "Cargo.lock",
+    "toml",
+    "Pipfile",
+    "uv.lock",
+]
 line_comments = ["# "]
 autoclose_before = ",]}"
 brackets = [

@@ -1,1 +1,4 @@
-(pair (bare_key) "=" (_) @redact)
+(pair
+  (_)
+  "="
+  (_) @redact)
