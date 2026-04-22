@@ -1,6 +1,13 @@
-(comment)+ @comment.around
-(table "[" (_) "]"
-    (_)* @class.inside) @class.around
+((comment)+ @comment.around) @comment.inside
 
-(table_array_element "[[" (_) "]]"
-    (_)* @class.inside) @class.around
+(table
+  "["
+  (_)
+  "]"
+  (_)* @class.inside) @class.around
+
+(table_array_element
+  "[["
+  (_)
+  "]]"
+  (_)* @class.inside) @class.around
