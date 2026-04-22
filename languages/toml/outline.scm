@@ -1,15 +1,13 @@
 (table
-  .
   "["
-  .
-  (_) @name) @item
+  (_) @name
+  "]") @item
 
 (table_array_element
-  .
   "[["
-  .
-  (_) @name) @item
+  (_) @name
+  "]]") @item
 
 (pair
-  .
-  (_) @name) @item
+  (_) @name
+  "=") @item

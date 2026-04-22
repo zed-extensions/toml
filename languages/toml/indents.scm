@@ -1,2 +1,5 @@
-(array "]" @end) @indent
-(inline_table "}" @end) @indent
+(array
+  "]" @end) @indent
+
+(inline_table
+  "}" @end) @indent
