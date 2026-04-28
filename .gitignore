@@ -2,5 +2,11 @@
 # zed-toml
 #
 
+/grammars
 *.wasm
-grammars/
+
+#
+# Rust
+#
+
+/target

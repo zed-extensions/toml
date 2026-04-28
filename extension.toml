@@ -5,9 +5,13 @@ version = "1.0.3"
 schema_version = 1
 authors = [
     "Max Brunsfeld <max@zed.dev>",
-    "Ammar Arif <evergreenkary@gmail.com>"
+    "Ammar Arif <evergreenkary@gmail.com>",
 ]
 repository = "https://github.com/zed-extensions/toml"
+
+[language_servers.taplo]
+name = "Taplo"
+languages = ["TOML"]
 
 [grammars.toml]
 repository = "https://github.com/tree-sitter/tree-sitter-toml"
