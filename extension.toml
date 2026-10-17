@@ -12,6 +12,7 @@ repository = "https://github.com/zed-extensions/toml"
 [language_servers.taplo]
 name = "Taplo"
 languages = ["TOML"]
+opt_in_languages = ["TOML"]
 
 [grammars.toml]
 repository = "https://github.com/tree-sitter/tree-sitter-toml"
